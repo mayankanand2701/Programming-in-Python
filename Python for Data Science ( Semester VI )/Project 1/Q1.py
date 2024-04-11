@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb 13 15:24:25 2024
-
-@author: student
-"""
 users=[
        {"id":0,"name":"Hero"},
        {"id":1,"name":"Dunn"},

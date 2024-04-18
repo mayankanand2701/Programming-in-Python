@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb 20 14:13:40 2024
-
-@author: student
-"""
 
 users=[
        {"id":0,"name":"Ashok"},
@@ -32,7 +25,6 @@ for i in d:print(i," :",d[i])
 print()
 
 # Question 2
-from collections import defaultdict
 d1=defaultdict(list)
 for i,j in interests:
     d1[i].append(j)
@@ -44,9 +36,9 @@ for i in d1:print(i," :",d1[i])
 list=[]
 index=int(input("Enter the id = "))
 for s in d1[index]:
-    print(s)
+    #print(s)
     for j in d[s]:
-        print(j)
+        #print(j)
         if j==index:continue
         else:list.append(j)
         
